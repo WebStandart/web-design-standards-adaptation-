@@ -1,0 +1,12 @@
+machine:
+  node:
+    version: 5.1.0
+
+test:
+  pre:
+    - gulp -v
+  override:
+    - npm test # Run the package and docs test suite
+    - npm run build:package # Run the release process
+  post:
+    - ls -agolf dist/ # Ensure that build:package worked
