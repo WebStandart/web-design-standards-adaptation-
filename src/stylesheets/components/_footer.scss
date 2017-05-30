@@ -1,9 +1,9 @@
-.usa-footer {
-  .usa-unstyled-list {
+.rus-footer {
+  .rus-unstyled-list {
     display: block;
   }
 
-  .usa-footer-primary-link {
+  .rus-footer-primary-link {
     color: $color-base;
     display: block;
     font-weight: $font-bold;
@@ -26,15 +26,15 @@
   }
 }
 
-.usa-footer-return-to-top {
+.rus-footer-return-to-top {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
 
-.usa-footer-primary-section {
+.rus-footer-primary-section {
   background-color: $color-gray-lightest;
 
-  .usa-footer-primary-content {
+  .rus-footer-primary-content {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
 
@@ -52,7 +52,7 @@
     }
   }
 
-  .usa-grid-full {
+  .rus-grid-full {
     @include media($medium-screen) {
       padding-left: 2.5rem;
       padding-right: 2.5rem;
@@ -60,8 +60,8 @@
   }
 }
 
-.usa-footer-medium {
-  .usa-footer-primary-section {
+.rus-footer-medium {
+  .rus-footer-primary-section {
     padding: 0;
 
     @include media($medium-screen) {
@@ -70,32 +70,32 @@
     }
   }
 
-  .usa-footer-nav ul {
+  .rus-footer-nav ul {
     @include media($medium-screen) {
       align-items: center;
     }
   }
 }
 
-.usa-footer-slim {
-  .usa-footer-nav a {
+.rus-footer-slim {
+  .rus-footer-nav a {
     display: block;
   }
 
-  .usa-footer-primary-section {
+  .rus-footer-primary-section {
     padding-bottom: 2rem;
 
     @include media($medium-screen) {
       padding-bottom: 1rem;
       padding-top: 1rem;
 
-      .usa-grid-full {
+      .rus-grid-full {
         align-items: center;
       }
     }
   }
 
-  .usa-footer-contact_info {
+  .rus-footer-contact_info {
     > * {
       @include media($medium-screen) {
         margin: 0;
@@ -117,9 +117,9 @@
 }
 
 // scss-lint:disable QualifyingElement
-ul.usa-footer-primary-content,
-li.usa-footer-primary-content,
-li.usa-footer-primary-content {
+ul.rus-footer-primary-content,
+li.rus-footer-primary-content,
+li.rus-footer-primary-content {
   border-top: 1px solid $color-base;
 
   @include media($medium-screen) {
@@ -136,7 +136,7 @@ li.usa-footer-primary-content {
 }
 // scss-lint:enable QualifyingElement
 
-.usa-sign_up-block {
+.rus-sign_up-block {
   padding-bottom: 2rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -161,7 +161,7 @@ li.usa-footer-primary-content {
   }
 }
 
-.usa-footer-secondary_section {
+.rus-footer-secondary_section {
   background-color: $color-gray-lighter;
   padding-bottom: 3rem;
   padding-top: 3rem;
@@ -171,26 +171,26 @@ li.usa-footer-primary-content {
   }
 }
 
-.usa-footer-big-secondary-section {
+.rus-footer-big-secondary-section {
   @include media($medium-screen) {
     padding-top: 5rem;
   }
 }
 
-.usa-footer-contact-links {
+.rus-footer-contact-links {
   @include media($medium-screen) {
     text-align: right;
   }
 }
 
-.usa-social-links {
+.rus-social-links {
   a {
     text-decoration: none;
   }
 }
 
-.usa-footer-big {
-  .usa-footer-primary-section {
+.rus-footer-big {
+  .rus-footer-primary-section {
     @include media($medium-screen) {
       padding-bottom: 4rem;
       padding-top: 3rem;
@@ -216,7 +216,7 @@ li.usa-footer-primary-content {
       line-height: 2em;
     }
 
-    .usa-footer-primary-link {
+    .rus-footer-primary-link {
       background-image: url('#{$image-path}/arrow-down.png');
       background-image: url('#{$image-path}/arrow-down.svg');
       background-position: 1.5rem center;
@@ -243,7 +243,7 @@ li.usa-footer-primary-content {
 
       li { display: none; }
 
-      .usa-footer-primary-link {
+      .rus-footer-primary-link {
         background-image: url('#{$image-path}/arrow-right.png');
         background-image: url('#{$image-path}/arrow-right.svg');
         cursor: pointer;
@@ -258,32 +258,32 @@ li.usa-footer-primary-content {
   }
 }
 
-.usa-footer-topic {
+.rus-footer-topic {
   margin: 0;
   padding: 2rem 0;
 }
 
-.usa-sign_up-header {
+.rus-sign_up-header {
   @include media($medium-screen) {
     margin: 0;
     padding: 2rem 0;
   }
 }
 
-.usa-footer-logo-img {
+.rus-footer-logo-img {
   max-width: 14rem;
 }
 
-.usa-footer-slim-logo-img {
+.rus-footer-slim-logo-img {
   float: left;
   max-width: 10rem;
 }
 
-.usa-footer-logo-heading {
+.rus-footer-logo-heading {
   margin-top: 2rem;
 }
 
-.usa-footer-contact-heading {
+.rus-footer-contact-heading {
   margin-top: 0;
 
   @include media($medium-screen) {
@@ -291,7 +291,7 @@ li.usa-footer-primary-content {
   }
 }
 
-.usa-footer-slim-logo-heading {
+.rus-footer-slim-logo-heading {
   display: block;
   padding-top: 1rem;
 
@@ -301,7 +301,7 @@ li.usa-footer-primary-content {
   }
 }
 
-.usa-social_link {
+.rus-social_link {
   $background-height: 3rem; // Height of icon within hit area.
   $hit-area: 4.4rem; // Link hit target is 44 x 44 pixels following Apple iOS
                      // Human Interface Guidelines.
@@ -326,26 +326,26 @@ li.usa-footer-primary-content {
   }
 }
 
-.usa-link-facebook {
-  @extend .usa-social_link;
+.rus-link-facebook {
+  @extend .rus-social_link;
   background-image: url('#{$image-path}/social-icons/png/facebook25.png');
   background-image: url('#{$image-path}/social-icons/svg/facebook25.svg');
 }
 
-.usa-link-twitter {
-  @extend .usa-social_link;
+.rus-link-twitter {
+  @extend .rus-social_link;
   background-image: url('#{$image-path}/social-icons/png/twitter16.png');
   background-image: url('#{$image-path}/social-icons/svg/twitter16.svg');
 }
 
-.usa-link-youtube {
-  @extend .usa-social_link;
+.rus-link-youtube {
+  @extend .rus-social_link;
   background-image: url('#{$image-path}/social-icons/png/youtube15.png');
   background-image: url('#{$image-path}/social-icons/svg/youtube15.svg');
 }
 
-.usa-link-rss {
-  @extend .usa-social_link;
+.rus-link-rss {
+  @extend .rus-social_link;
   background-image: url('#{$image-path}/social-icons/png/rss25.png');
   background-image: url('#{$image-path}/social-icons/svg/rss25.svg');
 }

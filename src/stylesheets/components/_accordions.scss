@@ -65,12 +65,12 @@ $accordion-border: 3px solid $color-gray-lightest;
   background-size: 1.3rem;
 }
 
-.usa-accordion,
-.usa-accordion-bordered {
+.rus-accordion,
+.rus-accordion-bordered {
   @include accordion-list-styles;
 
-  + .usa-accordion,
-  + .usa-accordion-bordered {
+  + .rus-accordion,
+  + .rus-accordion-bordered {
     margin-top: 1rem;
   }
 
@@ -100,15 +100,15 @@ $accordion-border: 3px solid $color-gray-lightest;
 
 }
 
-.usa-accordion-bordered {
-  .usa-accordion-content {
+.rus-accordion-bordered {
+  .rus-accordion-content {
     border-bottom: $accordion-border;
     border-left: $accordion-border;
     border-right: $accordion-border;
   }
 }
 
-.usa-accordion-content {
+.rus-accordion-content {
   background-color: $color-white;
   display: block;
   overflow: auto;
@@ -125,10 +125,10 @@ $accordion-border: 3px solid $color-gray-lightest;
   @include accessibly-hidden();
 }
 
-.usa-accordion-button {
+.rus-accordion-button {
   @include accordion-button-styles;
 }
 
-.usa-accordion-button[aria-expanded=false] {
+.rus-accordion-button[aria-expanded=false] {
   @include accordion-button-unopened-styles;
 }

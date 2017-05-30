@@ -1,8 +1,8 @@
 var template = [
-  '<ul class="usa-accordion">',
+  '<ul class="rus-accordion">',
   '<li>',
-  '<button class="usa-accordion-button" aria-controls="collapsible-0"></button>',
-  '<div id="collapsible-0" aria-hidden="true" class="usa-accordion-content"></div>',
+  '<button class="rus-accordion-button" aria-controls="collapsible-0"></button>',
+  '<div id="collapsible-0" aria-hidden="true" class="rus-accordion-content"></div>',
   '</div>',
   '</li>',
   '</ul>'

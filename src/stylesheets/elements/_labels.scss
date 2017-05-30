@@ -1,4 +1,4 @@
-.usa-label {
+.rus-label {
   background-color: $color-primary;
   border-radius: $border-radius;
   color: $color-white;
@@ -12,8 +12,8 @@
   }
 }
 
-.usa-label-big {
-  @extend .usa-label;
+.rus-label-big {
+  @extend .rus-label;
   font-size: $base-font-size;
   padding-left: 0.9rem;
   padding-right: 0.9rem;

@@ -1,4 +1,4 @@
-.usa-alert {
+.rus-alert {
   background-color: $color-gray-lightest;
   background-position: 1rem 2rem;
   background-repeat: no-repeat;
@@ -16,12 +16,12 @@
   }
 }
 
-.usa-alert-icon {
+.rus-alert-icon {
   display: table-cell;
   padding-right: 1rem;
 }
 
-.usa-alert-body {
+.rus-alert-body {
   display: table-cell;
   padding-left: 3.5rem;
   vertical-align: top;
@@ -31,7 +31,7 @@
   }
 }
 
-.usa-alert-heading {
+.rus-alert-heading {
   margin-bottom: .3rem;
   margin-top: 0;
 
@@ -40,36 +40,36 @@
   }
 }
 
-.usa-alert-text {
+.rus-alert-text {
   font-family: $font-sans;
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.usa-alert-success {
+.rus-alert-success {
   background-color: $color-green-lightest;
   background-image: url('#{$image-path}/alerts/success.png');
   background-image: url('#{$image-path}/alerts/success.svg');
 }
 
-.usa-alert-warning {
+.rus-alert-warning {
   background-color: $color-gold-lightest;
   background-image: url('#{$image-path}/alerts/warning.png');
   background-image: url('#{$image-path}/alerts/warning.svg');
 }
 
-.usa-alert-error {
+.rus-alert-error {
   background-color: $color-secondary-lightest;
   background-image: url('#{$image-path}/alerts/error.png');
   background-image: url('#{$image-path}/alerts/error.svg');
 }
 
-.usa-alert-info {
+.rus-alert-info {
   background-color: $color-primary-alt-lightest;
   background-image: url('#{$image-path}/alerts/info.png');
   background-image: url('#{$image-path}/alerts/info.svg');
 }
 
-.usa-alert-no_icon {
+.rus-alert-no_icon {
   background-image: none;
 }

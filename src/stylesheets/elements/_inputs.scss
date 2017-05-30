@@ -36,16 +36,16 @@ select {
   width: 100%;
 
   &:focus,
-  &.usa-input-focus {
+  &.rus-input-focus {
     box-shadow: $focus-shadow;
   }
 
-  &.usa-input-success {
+  &.rus-input-success {
     border: 3px solid $color-green-light;
   }
 }
 
-.usa-input-error {
+.rus-input-error {
   border-left: 4px solid $color-secondary-dark;
   margin-top: 3rem;
   padding-bottom: 0.8rem;
@@ -65,23 +65,23 @@ select {
     margin-top: 0;
   }
 
-  .usa-input-inline {
+  .rus-input-inline {
     border: $input-border-width solid $color-gray;
     width: inherit;
   }
 
-  .usa-input-inline-error {
+  .rus-input-inline-error {
     border: 3px solid $color-secondary-dark;
   }
 }
 
-.usa-input-error-label {
+.rus-input-error-label {
   display: block;
   font-size: $base-font-size;
   font-weight: $font-bold;
 }
 
-.usa-input-error-message {
+.rus-input-error-message {
   color: $color-secondary-dark;
   display: block;
   font-size: $base-font-size;
@@ -117,7 +117,7 @@ legend {
   font-weight: $font-bold;
 }
 
-.usa-fieldset-inputs {
+.rus-fieldset-inputs {
   label {
     margin-top: 0;
   }
@@ -125,7 +125,7 @@ legend {
 
 // Hint text
 
-.usa-form-hint {
+.rus-form-hint {
   color: $color-gray-medium;
   font-family: $font-sans;
   margin-bottom: 0;
@@ -307,7 +307,7 @@ legend {
 
 // Memorable dates
 
-.usa-date-of-birth {
+.rus-date-of-birth {
   label {
     margin-top: 0;
   }
@@ -324,15 +324,15 @@ legend {
   }
 }
 
-.usa-form-group-day,
-.usa-form-group-month,
-.usa-form-group-year {
+.rus-form-group-day,
+.rus-form-group-month,
+.rus-form-group-year {
   clear: none;
   float: left;
   margin-right: 1.5rem;
   width: 5rem;
 }
 
-.usa-form-group-year {
+.rus-form-group-year {
   width: 7rem;
 }

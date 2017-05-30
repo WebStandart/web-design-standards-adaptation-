@@ -8,11 +8,11 @@ function headerClickHandler (event) {
   
   var expanded = event.target.getAttribute('aria-expanded') === 'true';
   var toggleClass = expanded ? addClass : removeClass;
-  toggleClass(this, 'usa-banner-header-expanded');
+  toggleClass(this, 'rus-banner-header-expanded');
 }
 
 function bannerInit () {
-  var headers = select('.usa-banner-header');
+  var headers = select('.rus-banner-header');
 
   headers.forEach(function (header) {
     var headerClick = headerClickHandler.bind(header);

@@ -30,8 +30,8 @@ var events= [];
 
 module.exports = function footerAccordion () {
 
-  var navList = select('.usa-footer-big nav ul');
-  var primaryLink = select('.usa-footer-big nav .usa-footer-primary-link');
+  var navList = select('.rus-footer-big nav ul');
+  var primaryLink = select('.rus-footer-big nav .rus-footer-primary-link');
 
   if (events.length) {
     events.forEach(function (e) {

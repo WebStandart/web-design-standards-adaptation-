@@ -4,7 +4,7 @@ var Accordion = require('../components/accordion');
 
 whenDOMReady(function initAccordions () {
 
-  var accordions = select('.usa-accordion, .usa-accordion-bordered');
+  var accordions = select('.rus-accordion, .rus-accordion-bordered');
   accordions.forEach(function (el) {
     new Accordion(el);
   });

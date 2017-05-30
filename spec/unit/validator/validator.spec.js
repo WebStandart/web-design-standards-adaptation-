@@ -29,7 +29,7 @@ describe('validator component', function () {
     $validatedField.val('GreatPassword1');
     keyup($validatedField); 
     $validatorCheckboxes.children().each(function () {
-      $(this).hasClass('usa-checklist-checked').should.be.true();
+      $(this).hasClass('rus-checklist-checked').should.be.true();
     }); 
   });
 });

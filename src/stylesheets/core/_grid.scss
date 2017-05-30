@@ -1,11 +1,11 @@
 // Grid container
-.usa-grid,
-.usa-grid-full {
+.rus-grid,
+.rus-grid-full {
   @include outer-container();
   max-width: $site-max-width;
 }
 
-.usa-grid {
+.rus-grid {
   @include padding(null $site-margins-mobile);
 
   @include media($medium-screen) {
@@ -13,29 +13,29 @@
   }
 }
 
-.usa-grid-full {
+.rus-grid-full {
   padding: 0;
 }
 
 // Grid items
 @include media($medium) {
-  .usa-width-one-whole {
+  .rus-width-one-whole {
     @include span-columns(6);
   }
 
-  .usa-width-one-half {
+  .rus-width-one-half {
     @include span-columns(3);
   }
 
-  .usa-width-one-third {
+  .rus-width-one-third {
     @include span-columns(2);
   }
 
-  .usa-width-two-thirds {
+  .rus-width-two-thirds {
     @include span-columns(4);
   }
 
-  .usa-width-one-fourth {
+  .rus-width-one-fourth {
     @include span-columns(3);
 
     &:nth-child(2n) {
@@ -43,11 +43,11 @@
     }
   }
 
-  .usa-width-three-fourths {
+  .rus-width-three-fourths {
     @include span-columns(6);
   }
 
-  .usa-width-one-sixth {
+  .rus-width-one-sixth {
     @include span-columns(2);
 
     &:nth-child(3n) {
@@ -55,11 +55,11 @@
     }
   }
 
-  .usa-width-five-sixths {
+  .rus-width-five-sixths {
     @include span-columns(4);
   }
 
-  .usa-width-one-twelfth {
+  .rus-width-one-twelfth {
     @include span-columns(2);
 
     &:nth-child(3n) {
@@ -67,33 +67,33 @@
     }
   }
 
-  .usa-width-five-twelfths {
+  .rus-width-five-twelfths {
     @include span-columns(2);
   }
 
-  .usa-width-seven-twelfths {
+  .rus-width-seven-twelfths {
     @include span-columns(4);
   }
 }
 
 @include media($large) {
-  .usa-width-one-whole {
+  .rus-width-one-whole {
     @include span-columns(12);
   }
 
-  .usa-width-one-half {
+  .rus-width-one-half {
     @include span-columns(6);
   }
 
-  .usa-width-one-third {
+  .rus-width-one-third {
     @include span-columns(4);
   }
 
-  .usa-width-two-thirds {
+  .rus-width-two-thirds {
     @include span-columns(8);
   }
 
-  .usa-width-one-fourth {
+  .rus-width-one-fourth {
     @include span-columns(3);
 
     &:nth-child(2n) {
@@ -105,11 +105,11 @@
     }
   }
 
-  .usa-width-three-fourths {
+  .rus-width-three-fourths {
     @include span-columns(9);
   }
 
-  .usa-width-one-sixth {
+  .rus-width-one-sixth {
     @include span-columns(2);
 
     &:nth-child(3n) {
@@ -121,12 +121,12 @@
     }
   }
 
-  .usa-width-five-sixths {
+  .rus-width-five-sixths {
     @include span-columns(10);
   }
 
 
-  .usa-width-one-twelfth {
+  .rus-width-one-twelfth {
     @include span-columns(1);
 
     &:nth-child(3n) {
@@ -138,11 +138,11 @@
     }
   }
 
-  .usa-width-five-twelfths {
+  .rus-width-five-twelfths {
     @include span-columns(5);
   }
 
-  .usa-width-seven-twelfths {
+  .rus-width-seven-twelfths {
     @include span-columns(7);
   }
 }
@@ -150,6 +150,6 @@
 // Specifies end of a row.
 // Required if grid-box contains multiple rows.
 // Required if browser does not support :last-child
-.usa-end-row {
+.rus-end-row {
   @include omega();
 }

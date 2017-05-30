@@ -20,10 +20,10 @@ module.exports = function validator (el) {
         validatorCheckbox = select(validatorSelector, checkList)[ 0 ];
 
         if (!validatorPattern.test(el.value)) {
-          removeClass(validatorCheckbox, 'usa-checklist-checked');
+          removeClass(validatorCheckbox, 'rus-checklist-checked');
         }
         else {
-          addClass(validatorCheckbox, 'usa-checklist-checked');
+          addClass(validatorCheckbox, 'rus-checklist-checked');
         }
       }
     }

@@ -1,6 +1,6 @@
 var template = [
 '<div>',
-  '<ul class="usa-checklist" id="validation_list">',
+  '<ul class="rus-checklist" id="validation_list">',
     '<li data-validator="length">Be at least 8 characters</li>',
     '<li data-validator="uppercase">Have at least 1 uppercase character</li>',
     '<li data-validator="numerical">Have at least 1 numerical character</li>',

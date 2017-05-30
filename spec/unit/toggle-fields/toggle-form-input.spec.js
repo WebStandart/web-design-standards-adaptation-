@@ -4,7 +4,7 @@ var should = require('should');
 var ToggleFormInput = require('../../../src/js/components/toggle-form-input');
 var template = require('./template.js');
 
-var CONTROL_SELECTOR = '.usa-show_multipassword';
+var CONTROL_SELECTOR = '.rus-show_multipassword';
 var PASSWORD_SELECTOR = '#password';
 var CONFIRM_SELECTOR = '#confirmPassword';
 var SHOW_TEXT = 'Show my typing';

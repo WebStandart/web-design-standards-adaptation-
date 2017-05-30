@@ -10,16 +10,16 @@ function toggleClass (element, className) {
 }
 
 function mobileInit () {
-  var navElements = select('.usa-menu-btn, .usa-overlay, .usa-nav-close');
-  var toggleElements = select('.usa-overlay, .usa-nav');
-  var navCloseElement = select('.usa-nav-close')[ 0 ];
+  var navElements = select('.rus-menu-btn, .rus-overlay, .rus-nav-close');
+  var toggleElements = select('.rus-overlay, .rus-nav');
+  var navCloseElement = select('.rus-nav-close')[ 0 ];
 
   navElements.forEach(function (element) {
     dispatch(element, 'click touchstart', function (e) {
       toggleElements.forEach(function (element) {
         toggleClass(element, 'is-visible');
       });
-      toggleClass(document.body, 'usa-mobile_nav-active');
+      toggleClass(document.body, 'rus-mobile_nav-active');
       navCloseElement.focus();
       return false;
     });
