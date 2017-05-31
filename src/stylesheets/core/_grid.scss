@@ -15,6 +15,7 @@
 
 .rus-grid-full {
   padding: 0;
+  text-decoration: none;/*убрать подчетркивание ссылок*/
 }
 
 // Grid items
@@ -153,3 +154,6 @@
 .rus-end-row {
   @include omega();
 }
+.rus-grid a{
+    text-decoration: none;
+}/*убрать подчетркивание ссылок*/

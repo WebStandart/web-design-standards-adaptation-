@@ -4,7 +4,9 @@
 }
 
 .rus-media_block-img {
-  @include media-block-img;
+  @include media-block-img;{
+  width: 50px;
+  }
 }
 
 .rus-media_block-body {

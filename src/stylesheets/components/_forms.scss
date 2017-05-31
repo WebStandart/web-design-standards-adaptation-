@@ -35,6 +35,9 @@ form {
   font-family: $font-sans;
   font-size: $h5-font-size;
   margin: 0 0 1.5rem;
+  display: block;/* личная настройка*/
+  position: relative;/* личная настройка*/
+     
 
   + * {
     clear: both;
