@@ -1,0 +1,136 @@
+.rus-grid-full {
+    text-decoration: none;
+}
+.rus-width-one-third{
+    display: block;
+}
+/*убрать подчетркивание ссылок*/
+.rus-grid a{
+    text-decoration: none;
+}
+/* размер шрифта в подвале!!!!!!!!!*/
+address p{
+    font-size: 12px;
+}
+.content1{/* !!!!!!!!*/
+    background:red;
+}
+.rus-form {
+     display: block;
+     position: relative;
+     
+}
+.two{/* !!!!!!!!*/
+
+    background-color: #112e51;
+}
+/* фоновая картинка!!!!!!!!*/
+.content{
+    background-image: url(../images/irk.jpg);
+    width: 2000px;
+    height: 380px;
+    width: 100%;
+    color: #fff;
+    
+}
+.cont{
+    background-image: url(../images/acodemiya.jpg);
+    width: 800px;
+    height: 380px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+/*Выравнивание по центру текст*/
+.rus-form p, legend{
+    text-align: center;
+}
+.rus-form{
+    display: block;
+    margin-left: 40%;
+
+}
+.footer2{
+    color: #fff;
+    font-size: 14px;
+    width: 1500px;
+    height: 65px;
+    background: #112e51;
+    max-width: 100%;
+
+}
+.f1{
+    text-align: center;
+    margin-left: 12%;
+    padding: 5px; /* Поля вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    width: 200px; /* Ширина слоя */
+    
+   
+}
+.f2{margin-left: 7%;
+    text-align: center;
+    padding: 5px; /* Поля вокруг текста */
+    width: 300px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+
+     
+}
+.f3{margin-left: 7%;
+    text-align: center;
+    padding: 5px; /* Поля вокруг текста */
+    width: 300px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+
+}
+/*высота подвала*/
+.rus-footer-secondary_section{
+    height: 230px;
+}
+.rus-nav-inner{
+    opacity: 0.9; /* прозрачность фона меню*/
+}
+.content2{
+    display: block;
+    background: #dce4ef;
+    width: 1500px;  
+    max-width: 100%; 
+}
+.rus-media_block-img{
+   width: 240px;
+}
+/* поле для ссылок*/
+.h{
+    font-size: 14px;
+    width: 1500px;
+    height: 30px;
+    background: #112e51;
+}
+.rus-width-three-fourths rus-layout-docs-main_content{
+    text-align: justify;
+}
+.content2{/* фон для формы обращения*/
+    display: block;
+    background: #dce4ef;
+    width: 1500px;   
+}
+.rus-media_block-img{
+    width: 50px;
+}
+.header-logo{
+    width: 100px;
+    margin-top: -40px;
+    max-width: 100%;
+}
+@media screen and (max-width: 951px){/* мобильность логотипа*/
+    img.header-logo{
+        display: none;
+    }
+}
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+
+.rus-nav-close img {
+  width: 4rem;
+}
